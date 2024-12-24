@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/redPalette5"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/pImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_person" />
+
+            <TextView
+                android:id="@+id/hName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/pImage"
+                android:fontFamily="sans-serif-black"
+                android:includeFontPadding="false"
+                android:text="My Name"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hName"
+                android:text="Blood Donor"
+                android:layout_toEndOf="@+id/pImage"
+                android:layout_marginStart="10dp"
+                android:textSize="14dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/full_name"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                app:hintTextColor="@color/redPalette2"
+                app:startIconDrawable="@drawable/ic_baseline_person"
+                app:startIconTint="@color/redPalette2"
+                app:boxStrokeColor="@color/redPalette5"
+                app:boxStrokeWidth="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/full_name"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/address"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                app:startIconDrawable="@drawable/ic_baseline_location_city"
+                app:startIconTint="@color/redPalette2"
+                app:boxStrokeColor="@color/redPalette5"
+                app:boxStrokeWidth="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/phone"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                app:startIconDrawable="@drawable/ic_baseline_phone"
+                app:startIconTint="@color/redPalette2"
+                app:boxStrokeColor="@color/redPalette5"
+                app:boxStrokeWidth="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/email"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                app:startIconDrawable="@drawable/ic_baseline_email"
+                app:startIconTint="@color/redPalette2"
+                app:boxStrokeColor="@color/redPalette5"
+                app:boxStrokeWidth="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/date_of_birth"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                app:startIconDrawable="@drawable/ic_baseline_today"
+                app:startIconTint="@color/redPalette2"
+                app:boxStrokeColor="@color/redPalette5"
+                app:boxStrokeWidth="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editDOB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_of_birth"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/blood_group"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                app:startIconDrawable="@drawable/ic_baseline_bloodtype"
+                app:startIconTint="@color/redPalette2"
+                app:boxStrokeColor="@color/redPalette5"
+                app:boxStrokeWidth="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editBlood"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blood_group"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/last_donation_date"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                app:startIconDrawable="@drawable/ic_baseline_today"
+                app:startIconTint="@color/redPalette2"
+                app:boxStrokeColor="@color/redPalette5"
+                app:boxStrokeWidth="2dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editLDD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_donation_date"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                tools:layout_editor_absoluteX="156dp"
+                tools:layout_editor_absoluteY="100dp"
+                android:text="Update Profile"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:background="@drawable/custom_button"/>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

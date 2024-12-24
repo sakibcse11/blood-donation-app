@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/allerta</item>
+        <item>@font/amarante</item>
+        <item>@font/andika</item>
+        <item>@font/audiowide</item>
+        <item>@font/bangers</item>
+        <item>@font/baumans</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/bungee</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/carter_one</item>
+        <item>@font/chau_philomene_one</item>
+        <item>@font/days_one</item>
+        <item>@font/faster_one</item>
+    </array>
+</resources>

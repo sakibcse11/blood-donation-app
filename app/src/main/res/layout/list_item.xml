@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/redPalette2"
+        android:minHeight="88dp">
+
+        <ImageView
+            android:id="@+id/lIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:padding="16dp"
+            android:src="@drawable/ic_baseline_person" />
+
+        <TextView
+            android:id="@+id/lName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toEndOf="@id/lIcon"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/full_name"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/lAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lName"
+            android:layout_gravity="center_vertical"
+            android:layout_toEndOf="@id/lIcon"
+            android:maxLines="1"
+            android:paddingEnd="16dp"
+            android:text="@string/address"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/lBlood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lAddress"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="1dp"
+            android:layout_toEndOf="@id/lIcon"
+            android:maxLines="1"
+            android:paddingEnd="16dp"
+            android:text="@string/blood_group"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:id="@+id/lLastDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lBlood"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="1dp"
+            android:layout_toEndOf="@id/lIcon"
+            android:maxLines="1"
+            android:paddingEnd="16dp"
+            android:text="@string/last_donation_date"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lCall"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lLastDate"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/lIcon"
+            android:text="CALL"
+            android:textSize="16dp"
+            app:icon="@drawable/ic_baseline_phone_24" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lEmail"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lLastDate"
+            android:layout_toEndOf="@+id/lCall"
+            android:text="EMAIL"
+            android:textSize="16dp"
+            app:icon="@drawable/ic_baseline_email_24" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

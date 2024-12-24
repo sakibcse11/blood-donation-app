@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/redPalette2"
+    tools:context=".InformationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_1"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="@string/details_1" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_2"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_2"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_3"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_3"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_4"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_4"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_5"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_5"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_6"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_6"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_7"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_7"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_8"
+            android:background="@color/redPalette3"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_8"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
